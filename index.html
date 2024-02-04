@@ -246,13 +246,10 @@
                             <time>2023.12 至今</time>
                         </h3>
                         <ul class="info-content">
-                            <li>参与公司校途项目迭代的后端模块开发工作，
-                                独立承担并完成XX、XX、XXXX等功能点的开发，
-                                主要维护并修复XX、XX、XX等功能点bug若干。项目采用技术栈
-                                <mark>SpringCloud+Uniapp</mark>，实现
-                                <mark>前后端完全分离</mark>。</li>
-                            <li>配合UI和后端，根据产品需求提供H5页面嵌入到后台模板，要求
-                                <mark>移动端显示正常</mark>。</li>
+                            <li>独立承担公司校途项目社交模块的开发，实现了图文发布、浏览、删除、评论点赞等功能并设计对应的数据
+                                库。实现优质文章推荐功能。项目采用技术栈
+                                <mark>SpringBoot+Uniapp+TypeScripts</mark>。</li>
+                            <li>完成校途社交模块的前端页面开发，实现滚动瀑布流布局并与后端接口进行对接，实现前后端完全分离。</li>
                             <li>参与公司<mark>LLM 大语言模型的知识库问答系统</mark>的部署方案讨论和落地实践，并实现产品和大语言模型的对接</li>
                         </ul>
                     </li>
@@ -294,6 +291,7 @@
                             <time>2023.01-2023.10</time>
                         </h3>
                         <ul class="info-content">
+                            
                             <li>技术栈：SpringCloud+Nacos+Openfegin+Gateway+Mysql+Redis+Zookeeper+kafka+Vue+ElementUI</li>
                             <li>
                                 <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
@@ -304,10 +302,16 @@
                                 [团队]独自完成
                                 <br/>
                                 <i class="fa fa-bars" aria-hidden="true"></i>
-                                [贡献]完成从
-                                <mark>“调研-设计-实现-文档”</mark>等工作，主要负责系统原型、功能框架及数据提交流程、元数据及源数据的管理与共享方案的设计以及系统开发等工作
+                                [贡献]
+                                1.Security OAuth2 + JWT 实现认证授权和鉴权，使用 RBAC 权限模型实现动态权限控制。<br/>
+                                2.实现项目订单模块的开发，负责订单创建、删除、查询等功能。<br/>
+                                3.使用 CompletableFuture 优化购物车查询模块，对获取用户信息、商品详情、优惠券信息等异步 RPC 调用进行
+                                编排，降低响应时间。<br/>
+                                4.开发并设计下单流程，使用 Redission 实现分布式锁实现订单并发控制和库存同步。保证高并发下数据的一致性
+                                和系统的稳定性。并采用基于 kafka 消息队列的异步处理机制，提升了系统的性能。<br/>
+                                5.热门数据（如首页、热门商品等）使用 Redis+Caffeine 两级缓存，解决缓存击穿和穿透问题。
                                 <br/>
-                                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                                <!-- <i class="fa fa-thumbs-o-up" aria-hidden="true"></i> -->
                             </li>
                         </ul>
                     </li>
